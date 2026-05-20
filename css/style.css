@@ -1,0 +1,91 @@
+/*============================================
+          COMMON-CSS-PART-START
+============================================*/
+nav{
+    background-color:  #1C1E53;
+    padding:16px 0px !important;
+}
+a{
+    text-decoration: none;
+}
+/*============================================
+     COMMON-CSS-PART-END
+============================================*/
+/*============================================
+          NAVBAR-PART-START
+============================================*/
+.navbar-nav{
+ column-gap: 32px;
+}
+.nav-link{
+ font-size: 16px;
+ font-weight: 500;
+ color: #BBBBCB;
+ transition: .4s;
+ font-family: "poppins", sans-serif;
+ padding-left:0px !important;
+ padding-right: 0px !important;
+}
+.nav-link:hover{
+ color: #fff;
+}
+.nav-btn{
+ border: 1px solid rgba(244, 246, 252, 0.20);
+ border-radius: 41px;
+ padding: 16px 48px;
+ color: #fff;
+ font-size: 16px;
+ font-weight: 500;
+ font-family: "poppins", sans-serif;
+ transition: .4s;
+ margin-left: 48px;
+}
+.nav-btn:hover{
+ background-color: #FCD980;
+ color: #000;
+}
+
+/*============================================
+             NAVBAR-PART-END
+============================================*/
+/*============================================
+             BANNER-PART-START
+============================================*/
+.banner1{
+ background-color: #1C1E53;
+ padding: 126px 0px 128px 0px;
+}
+.banner1 h1{
+ font-size: 54px;
+ font-weight: 600;
+ color: rgb(248, 247, 247);
+ line-height: 74px;
+ font-family: "poppins", sans-serif;
+}
+.banner1 p{
+ width:562px ;
+ font-size: 16px;
+ font-weight: 500;
+ color: rgba(255, 255,255,0.70);
+ line-height: 28px;
+ font-family: "poppins", sans-serif;
+ padding: 38px 0px 48px 0px;
+}
+.banner1 .btn{
+ border: 1px solid rgba(244, 246, 252, 0.20);
+ border-radius: 41px;
+ padding: 16px 48px;
+ background-color: #FCD980;
+ color: #070707;
+ font-size: 18px;
+ font-weight: 600;
+ font-family: "Manrope", sans-serif;
+ transition: .4s;
+}
+.banner1 .btn:hover{
+ background-color:rgb(13, 13, 13) ;
+ color: wheat;
+}
+/*============================================
+             BANNER-PART-END
+============================================*/

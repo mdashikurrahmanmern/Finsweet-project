@@ -86,6 +86,63 @@ a{
  background-color:rgb(13, 13, 13) ;
  color: wheat;
 }
+.banner1 .view{
+ font-size: 16px;
+ font-weight: 500;
+ font-family: "poppins", sans-serif;
+ color: #f4f4f7;
+ position: relative;
+ margin-left: 30px;
+}
+.banner1 .view i{
+ position: absolute;
+ top: 50%;
+ left: 107px;
+ transform: translateY(-50%);
+ transition: 0.4s;
+}
+.banner1 .view:hover i{
+ left: 170px;
+ color: #1C1E53;
+}
 /*============================================
              BANNER-PART-END
+============================================*/
+/*============================================
+             WORK-PART-START
+============================================*/
+.work-part h2{
+font-size:48px ;
+font-weight: 700;
+color:  #282938;
+
+}
+.work-part p{
+    width: 405px;
+ font-size: 16px;
+ font-weight: 400;
+ font-family: "poppins", sans-serif;
+ color: #282938;
+}
+.work-part .btn{
+ font-size: 16px;
+ font-weight: 500;
+ font-family: "poppins", sans-serif;
+ color: #2405F2;
+ position: relative;
+}
+.work-part i{
+ position: absolute;
+ top: 50%;
+ left: 175px;
+ transform: translateY(-50%);
+ transition: 0.4s;
+ color: #f8f8fa;
+}
+.work-part .btn:hover i{
+ left: 225px;
+ color: #2405F2;
+}
+/*============================================
+             WORK-PART-END
 ============================================*/

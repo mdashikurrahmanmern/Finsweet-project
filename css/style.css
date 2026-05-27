@@ -111,11 +111,14 @@ a{
 /*============================================
              WORK-PART-START
 ============================================*/
+.work-part{
+ background-color: #F4F6FC;
+ padding: 125px 0px 75px 0px;
+}
 .work-part h2{
 font-size:48px ;
 font-weight: 700;
 color:  #282938;
-
 }
 .work-part p{
     width: 405px;
@@ -143,6 +146,149 @@ color:  #282938;
  left: 225px;
  color: #2405F2;
 }
-/*============================================
+.work-part .col-lg-7 .col-lg-6 h3{
+ font-size: 32px;
+ font-weight: 500;
+ font-family: "poppins", sans-serif;
+ padding: 24px 0px 5px 0px;
+}
+.work-part .col-lg-7 .col-lg-6 p{
+    width: 303px;
+ font-size: 16px;
+ font-weight: 400;
+ font-family: "poppins", sans-serif;
+ padding-bottom: 50px;
+}
+/*===========================================
              WORK-PART-END
+============================================*/
+/*===========================================
+             PROJECT-PART-START
+============================================*/
+.project{
+ padding: 128px 0px;
+}
+.project .box{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.project .box h1{
+ font-size: 48px;
+ font-weight: 700;
+ font-family: "poppins", sans-serif;
+}
+.project .box a{
+ color: #0d0d0d;
+ font-size: 16px;
+ font-weight: 500;
+ margin-right: 35px;
+ position: relative;
+}
+.project .box a i{
+ position: absolute;
+ top: 56%;
+ left: 96px;
+ transform: translateY(-50%);
+  transition: 0.4s;
+}
+.project .box a:hover i{
+ left: 120px;
+}
+.project .row{
+    padding-top: 65px;
+}
+.project .col-lg-8{
+ position: relative;
+ overflow: hidden;
+}
+.project .row .one{
+ width: 49%;
+ height: 100%;
+ background-color: rgba(0, 0, 0, 0.50);
+ padding: 290px 0px 0px 65px;
+ transition: .4s;
+ position: absolute;
+ top: 0px;
+ left:-439px;
+}
+.project .col-lg-8:hover .one{
+ left: 0px;
+}
+.project .col-lg-8 .one h4{
+ width: 313px;
+ font-size: 24px;
+ font-weight: 700;
+ color: #ffff;
+ line-height: 45px;
+ font-family: "poppins", sans-serif;
+}
+.project .col-lg-8 .one p{
+ width: 293px;
+ font-size: 16px;
+ font-weight: 500;
+ color: #ffff;
+ padding: 12px 0px;
+ line-height: 35px;
+ font-family: "poppins", sans-serif;
+}
+.project .col-lg-8 .one a{
+    color: #FCD980;
+    position: relative;
+}
+.project .col-lg-8 .one a i{
+  position: absolute;
+  top: 50%;
+  left: 110px;
+  transform: translateY(-50%);
+  transition: .4s;
+}
+.project .col-lg-8 .one a:hover i{
+    left: 150px;
+}
+.project .col-lg-4{
+position: relative;
+overflow: hidden;
+}
+.project .row .two{
+ width: 405px;
+ height: 50%;
+ padding: 135px 0px 0px 60px;
+ background-color: rgba(1, 5, 5, 0.50);;
+ transition: .4s;
+ position: absolute;
+ top: -301px;
+ left:11px;
+}
+.project .col-lg-4:hover .two{
+ top: 0px;
+}
+.project .row .two h5{
+ width: 280px;
+ font-size: 24px;
+ font-weight: 600;
+ color: white;
+ line-height: 36px;
+ font-family: "poppins", sans-serif;
+}
+.project .col-lg-4 a{
+ color: #FCD980;
+ position: relative;
+}
+.project .col-lg-4 .two a i{
+  position: absolute;
+  top: 50%;
+  left: 105px;
+  transform: translateY(-50%);
+  transition: .4s;
+}
+.project .col-lg-4 .two a:hover i{
+    left: 150px;
+}
+.project .col-lg-4 .three{
+ padding-top: 32px;
+}
+ /*===========================================
+             PROJECT-PART-END
 ============================================*/

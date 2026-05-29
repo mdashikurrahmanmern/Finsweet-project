@@ -292,3 +292,58 @@ overflow: hidden;
  /*===========================================
              PROJECT-PART-END
 ============================================*/
+/*===========================================
+             FEATURES-PART-START
+============================================*/
+.features{
+ background-color: #F4F6FC;
+ padding: 128px 0px;
+}
+.features .five{
+ display: flex;
+ justify-content: center;
+}
+.features .five p{
+ font-size: 16px;
+ font-weight: 500;
+ font-family: "poppins", sans-serif;
+}
+.features .five h4{
+ font-size: 48px;
+ font-weight: 700;
+ width: 630px;
+ line-height: 60px;
+ font-family: "poppins", sans-serif;
+ text-align: center;
+}
+.features .row .col-lg-4{
+ width: 406px;
+ height: 316px;
+ background-color: #FFFFFF;
+ padding-top: 90px;
+ padding-left: 40px;
+}
+.features .row{
+    row-gap: 28px;
+    column-gap: 28px;
+    padding-top: 30px;
+}
+.features .row .col-lg-4 i{
+ font-size: 24px;
+ color: #0a11d9;
+ padding-bottom: 20px;
+}
+.features .row .col-lg-4 p{
+     width: 325px;
+    font-size:16px ;
+    font-weight: 400;
+    font-family: "poppins", sans-serif;
+}
+.features .row .col-lg-4 h2{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "poppins", sans-serif;
+}
+/*===========================================
+             FEATURES-PART-END
+============================================*/

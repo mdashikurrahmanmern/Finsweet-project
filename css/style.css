@@ -239,8 +239,8 @@ color:  #282938;
 }
 .project .col-lg-8 .one a i{
   position: absolute;
-  top: 50%;
-  left: 110px;
+  top: 54%;
+  left: 95px;
   transform: translateY(-50%);
   transition: .4s;
 }
@@ -278,7 +278,7 @@ overflow: hidden;
 }
 .project .col-lg-4 .two a i{
   position: absolute;
-  top: 50%;
+  top: 52%;
   left: 105px;
   transform: translateY(-50%);
   transition: .4s;
@@ -346,4 +346,53 @@ overflow: hidden;
 }
 /*===========================================
              FEATURES-PART-END
+============================================*/
+/*===========================================
+             WHAT-PART-START
+============================================*/
+.what{
+ background-color: #F4F8FC;
+ padding: 130px 0px;
+}
+.what .col-lg-4 h4{
+ font-size: 38px;
+ font-weight: 700;
+ width: 350px;
+ font-family: "poppins", sans-serif;
+}
+.what .col-lg-4 p{
+ font-size: 16px;
+ font-weight: 400;
+ width: 350px;
+ padding-top: 16px;
+ font-family: "poppins", sans-serif;
+}
+.what .col-lg-8 h5{
+ font-size: 32px;
+ font-weight: 500;
+ line-height: 48px;
+ padding-bottom: 54px;
+ font-family: "poppins", sans-serif;
+}
+.what .col-lg-8 div{
+    display: flex;
+}
+.what .col-lg-8 img{
+ width: 52px;
+ height: 52px;
+}
+.what .col-lg-8 h6{
+ font-size: 18px;
+ font-weight: 500;
+ padding: 5px 0px 0px 11px;
+ font-family: "poppins", sans-serif;
+}
+.what .col-lg-8 h6 p{
+ font-size: 12px;
+ font-weight: 500;
+ padding-top: 6px;
+ font-family: "poppins", sans-serif;
+}
+/*===========================================
+             WHAT-PART-END
 ============================================*/

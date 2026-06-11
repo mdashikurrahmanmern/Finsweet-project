@@ -6,10 +6,10 @@ nav{
     padding:16px 0px !important;
 }
 a{
-    text-decoration: none;
+ text-decoration: none;
 }
 ul,li{
-    list-style: none;
+ list-style: none;
 }
 /*============================================
      COMMON-CSS-PART-END
@@ -42,6 +42,7 @@ ul,li{
  font-family: "poppins", sans-serif;
  transition: .4s;
  margin-left: 48px;
+ display: inline-block;
 }
 .nav-btn:hover{
  background-color: #FCD980;

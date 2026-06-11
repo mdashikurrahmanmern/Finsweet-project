@@ -1,0 +1,81 @@
+@media (min-width:320px) and (max-width:575.99px){
+    .navbar-toggler{
+      border-color: white;
+    }
+    .navbar-toggler i{
+      color: white;
+    }
+    .navbar-toggler:focus{
+      box-shadow: 0px 0px 0px transparent;
+    }
+    .navbar-collapse{
+     margin-top: 30px;
+     background: rgb(112, 95, 225);
+     border-radius: 10px;
+    }
+    .navbar-nav{
+     align-items: center;
+     row-gap: 30px;
+     padding: 30px 0px;
+     margin: 30px 0px;
+    }
+    .nav-btn{
+     padding: 12px 30px;
+     font-size: 13px;
+     margin-left: 0px;
+    }
+    .nav-one{
+     text-align: center;
+     margin-bottom: 30px;
+    }
+    .banner1 h1 {
+     font-size: 35px;
+     line-height: 60px;
+     text-align: center;
+    }
+    .banner1 {
+     background-color: #1C1E53;
+     padding: 25px 0px 100px 0px;
+    }
+    .banner1 p {
+     width: auto;
+     font-size: 13px;
+     line-height: 25px;
+     padding: 12px 0px 20px 0px;
+     text-align: center;
+    }
+    .banner1 .btn {
+     padding: 9px 22px;
+     font-size: 13px;
+    }
+    .banner1 .view {
+     font-size: 13px;
+     margin-left: 50px;
+    }
+    .banner1 .view i {
+     left: 90px;
+    }
+    .banner1 img{
+     width: 315px;
+     margin-top: 30px;
+    }
+    .work-part h2 {
+     font-size: 34px;
+     text-align: center;
+    }
+    .work-part {
+     padding: 30px 0px 75px 0px;
+    }
+    .work-part p {
+     width: auto;
+     font-size: 13px;
+     text-align: center;
+    }
+    .work-part .btn {
+     font-size: 11px;
+    }
+
+
+
+
+}

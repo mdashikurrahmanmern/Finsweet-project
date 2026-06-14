@@ -45,19 +45,22 @@
      text-align: center;
     }
     .banner1 .btn {
-     padding: 9px 22px;
+     padding: 3% 8%;
      font-size: 13px;
     }
     .banner1 .view {
      font-size: 13px;
-     margin-left: 50px;
+     margin-left: 20%;
     }
     .banner1 .view i {
      left: 90px;
     }
     .banner1 img{
-     width: 315px;
-     margin-top: 30px;
+     width: 100%;
+     margin-top: 12%;
+    }
+    .work-part {
+     padding: 35px 0px 20px 0px;
     }
     .work-part h2 {
      font-size: 34px;
@@ -68,14 +71,752 @@
     }
     .work-part p {
      width: auto;
-     font-size: 13px;
+     font-size: 12px;
      text-align: center;
     }
     .work-part .btn {
      font-size: 11px;
+     padding-left: 32%;
+    }
+    .work-part i {
+     left: 205px;
+    }
+    .work-part img, svg{
+      margin-left: 42%;
+      margin-top: 7%;
+    }
+    .work-part .col-lg-7 .col-lg-6 h3{
+      font-size: 24px;
+      padding: 16px 0px 5px 0px;
+      text-align: center;
+    }
+    .work-part .col-lg-7 .col-lg-6 p{
+      width: auto;
+      font-size: 12px;
+      padding-bottom: 0px;
+      padding-top: 5px;
+      line-height: 22px;
+    }
+    .project .box h1{
+      font-size: 16px;
+    }
+    .project .box a{
+      font-size: 11px;
+      margin-right: 20px;
+      margin-bottom: 10px;
+    }
+    .project .box a i{
+      left: 71px;
+    }
+    .project {
+     padding: 31px 0px;
+    }
+    .project .row {
+     padding-top: 25px;
+    }
+    .project .row > *{
+     padding-left: calc(var(--bs-gutter-x) * .0);
+    }
+    .project .col-lg-8 img, svg {
+     width: 103%;
+     margin-bottom: 15px;
+    }
+    .project .row .one {
+     padding: 0px 0px 0px 0px;
+     left: 0px;
+     height: 94%;
+    }
+    .project .col-lg-8 .one h4 {
+     width: auto;
+     font-size: 15px;
+     line-height: 20px;
+     text-align: center;
+     padding-top: 33px;
+    }
+    .project .col-lg-8 .one p {
+      width: auto;
+      font-size: 10px;
+      padding: 5px 0px;
+      line-height: 20px;
+      text-align: center;
+    }
+    .project .col-lg-8 .one a {
+      font-size: 10px;
+      padding-left: 36px;
+    }
+    .project .row .two {
+     width: 100%;
+     height: 48%;
+     padding: 23% 22% 0% 0%;
+     top: 0px;
+     left: 0px;
     }
 
+    .project .col-lg-4 img, svg {
+     width: 103%;
+    }
+    .project .col-lg-4 .three img, svg {
+     width: 103%;
+    }
+    .project .row .two h5 {
+     width: auto;
+     font-size: 18px;
+     line-height: 0px;
+     padding-bottom: 13px;
+     text-align: center;
+    }
+    .project .col-lg-4 a {
+     margin-left: 24%;
+     font-size: 12px;
+    }
+    .project .col-lg-4 .two a i {
+     top: 54%;
+     left: 82px;
+    }
+    .features {
+     padding: 25px 0px;
+    }
+    .features .five p {
+     font-size: 14px;
+    }
+    .features .five h4 {
+      font-size: 23px;
+      width: auto;
+      line-height: 38px;
+    }
+    .features .row .col-lg-4 {
+      width: 100%;
+      height: 195px;
+      padding-top: 6%;
+      padding-left: 8%;
+    }
+    .features .row .col-lg-4 i {
+      margin-left: 46%;
+    }
+    .features .row .col-lg-4 h2 {
+      font-size: 19px;
+      text-align: center;
+    }
+    .features .row .col-lg-4 p {
+      width: auto;
+      font-size: 11px;
+      text-align: center;
+      line-height: 20px;
+    }
+    .what {
+      padding: 25px 0px;
+    }
+    .what .col-lg-4 h4 {
+      font-size: 18px;
+      width: auto;
+      text-align: center;
+    }
+    .what .col-lg-4 p {
+      font-size: 12px;
+      width: auto;
+      padding-top: 5px;
+      line-height: 22px;
+      text-align: center;
+    }
+    .what .col-lg-8 h5 {
+      font-size: 19px;
+      line-height: 38px;
+      padding-bottom: 20px;
+      text-align: center;
+    }
+    .what .col-lg-8 img {
+      width: 40px;
+      height: 40px;
+      margin-left: 29%;
+    }
+    .what .col-lg-8 h6 {
+      font-size: 11px;
+    }
+    .what .col-lg-8 h6 p {
+      font-size: 8px;
+      padding-top: 7px;
+      padding-left: 4px;
+    }
+    .fre {
+      padding: 25px 0px 41px 0px;
+    }
+    .fre .col-lg-4 h5 {
+      width: auto;
+      font-size: 19px;
+      line-height: 50px;
+      text-align: center;
+    }
+    .fre .col-lg-4 p {
+      font-size: 11px;
+      text-align: center;
+    }
+    .fre .col-lg-8 .accordion-button {
+      font-size: 10px;
+    }
+    
+    .fre .row > * {
+      padding-right: calc(var(--bs-gutter-x) * .0);
+      padding-left: calc(var(--bs-gutter-x) * .0);
+    }
+    .fre .col-lg-8 span {
+      font-size: 10px;
+      padding-right: 10%;
+    }
+    .fre .col-lg-8 p {
+      font-size: 12px;
+      text-align: center;
+      line-height: 25px;
+    }
+    .building .col-lg-6 .imeg .nine {
+      padding: 50px 0px 260px 0px;
+    }
+    .building .col-lg-6 .imeg .nine h6 {
+      font-size: 23px;
+      line-height: 30px;
+      text-align: center;
+    }
+    .building .col-lg-6 .imeg .nine p {
+      font-size: 15px;
+      padding-top: 12px;
+      line-height: 25px;
+      text-align: center;
+    }
+    .building .col-lg-6 .content form {
+      padding: 50px 0px 40px 0px;
+    }
+    .building .col-lg-6 .content h4 {
+      font-size: 16px;
+      padding-left: 5%;
+    }
+    .building .col-lg-6 .content p {
+      padding:  4% 0% 5% 5%;
+      font-size: 11px;
+    }
+    .building .col-lg-6 .content form input {
+      padding: 5% 11%;
+    }
+    .building .col-lg-6 .content form input::placeholder{
+     font-size: 10px;
+    }
+    .building .col-lg-6 .content form button {
+      padding: 18px 0px;
+      font-size: 13px;
+    }
+    .building .col-lg-6 .content form .five {
+      padding-left: 25%;
+      font-size: 14px;
+    }
+    .building .col-lg-6 .content form .five i {
+      left: 103%;
+    }
+    .building {
+      padding-bottom: 25px;
+    }
+    .blog .row > * {
+      padding-right: calc(var(--bs-gutter-x) * .0);
+      padding-left: calc(var(--bs-gutter-x) * .0);
+    }
+    .blog h5 {
+      font-size: 35px;
+      text-align: center;
+      padding-bottom: 0px;
+    }
+    .blog img{
+      width: 100%;
+      padding-top: 15px;
+    }
+    .blog .col-lg-4 h6 {
+      font-size: 13px;
+      padding: 10px 0px 10px 14px;
+    }
+    .blog .col-lg-4 h3 {
+      font-size: 18px;
+      line-height: 30px;
+      text-align: center;
+    }
+    .blog .col-lg-4 p {
+      width: auto;
+      font-size: 13px;
+      line-height: 24px;
+      padding: 10px 0px 5px 0px;
+      text-align: center;
+    }
+    .blog .col-lg-4 .six {
+      font-size: 13px;
+      padding:  0% 0% 0% 42%;
+    }
+    .blog .col-lg-4 .six i {
+      left: 105%;
+    }
+    .blog {
+      padding-bottom: 40px;
+    }
+    .talk {
+      background-color: #1C1E53;
+      padding-top: 35px;
+    }
+    .talk img{
+     padding-left: 31%;
+    }
+    .talk .col-lg-6 .one {
+      margin: 25px 0px 35px 0px;
+      width: auto;
+      font-size: 16px;
+      text-align: center;
+    }
+    .talk .row > * {
+      padding-right: calc(var(--bs-gutter-x) * .0);
+      padding-left: calc(var(--bs-gutter-x) * .0);
+    }
+     .talk h6 {
+      font-size: 10px;
+    }
+    .talk p {
+      font-size: 13px;
+    }
+    .talk .col-lg-6 .ten {
+      width: auto;
+      padding: 25px 0px 15px 7%;
+      column-gap: 22%;
+    }
+    .talk .col-lg-6 h4 {
+      font-size: 38px;
+      text-align: center;
+      padding-top: 15px;
+    }
+    .talk .col-lg-6 .two {
+      width: auto;
+      font-size: 14px;
+      text-align: center;
+    }
+    .talk .col-lg-6 ul {
+      padding-left: 29%;
+    }
+    footer {
+      padding: 25px 0px;
+    }
+    footer h6 {
+      font-size: 16px;
+      text-align: center;
+    }
+    footer a {
+      font-size: 10px;
+    }
+    footer ul {
+      column-gap: 6%;
+     padding-left: 0px;
+     padding-top: 30px;
+     justify-content: center;
+    }
+}
+@media (min-width:576px) and (max-width:767.99px){
+    .navbar-toggler{
+      border-color: white;
+    }
+    .navbar-toggler i{
+      color: white;
+    }
+    .navbar-toggler:focus{
+      box-shadow: 0px 0px 0px transparent;
+    }
+    .navbar-collapse{
+     margin-top: 30px;
+     background: rgb(112, 95, 225);
+     border-radius: 10px;
+    }
+    .navbar-nav{
+     align-items: center;
+     row-gap: 30px;
+     padding: 30px 0px;
+     margin: 30px 0px;
+    }
+    .nav-btn{
+     padding: 12px 30px;
+     font-size: 13px;
+     margin-left: 0px;
+    }
+    .nav-one{
+     text-align: center;
+     margin-bottom: 30px;
+    }
+    .banner1 h1 {
+     font-size: 35px;
+     line-height: 60px;
+     text-align: center;
+    }
+    .banner1 {
+     background-color: #1C1E53;
+     padding: 25px 0px 100px 0px;
+    }
+    .banner1 p {
+     width: auto;
+     font-size: 13px;
+     line-height: 25px;
+     padding: 12px 0px 20px 0px;
+     text-align: center;
+    }
+    .banner1 .btn {
+     padding: 3% 8%;
+     font-size: 13px;
+    }
+    .banner1 .view {
+     font-size: 13px;
+     margin-left: 20%;
+    }
+    .banner1 .view i {
+     left: 90px;
+    }
+    .banner1 img{
+     width: 100%;
+     margin-top: 12%;
+    }
+    .work-part {
+     padding: 35px 0px 20px 0px;
+    }
+    .work-part h2 {
+     font-size: 34px;
+     text-align: center;
+    }
+    .work-part {
+     padding: 30px 0px 75px 0px;
+    }
+    .work-part p {
+     width: auto;
+     font-size: 12px;
+     text-align: center;
+    }
+    .work-part .btn {
+     font-size: 11px;
+     padding-left: 32%;
+    }
+    .work-part i {
+     left: 205px;
+    }
+    .work-part img, svg{
+      margin-left: 42%;
+      margin-top: 7%;
+    }
+    .work-part .col-lg-7 .col-lg-6 h3{
+      font-size: 24px;
+      padding: 16px 0px 5px 0px;
+      text-align: center;
+    }
+    .work-part .col-lg-7 .col-lg-6 p{
+      width: auto;
+      font-size: 12px;
+      padding-bottom: 0px;
+      padding-top: 5px;
+      line-height: 22px;
+    }
+    .project .box h1{
+      font-size: 16px;
+    }
+    .project .box a{
+      font-size: 11px;
+      margin-right: 20px;
+      margin-bottom: 10px;
+    }
+    .project .box a i{
+      left: 71px;
+    }
+    .project {
+     padding: 31px 0px;
+    }
+    .project .row {
+     padding-top: 25px;
+    }
+    .project .row > *{
+     padding-left: calc(var(--bs-gutter-x) * .0);
+    }
+    .project .col-lg-8 img, svg {
+     width: 103%;
+     margin-bottom: 15px;
+    }
+    .project .row .one {
+     padding: 0px 0px 0px 0px;
+     left: 0px;
+     height: 94%;
+    }
+    .project .col-lg-8 .one h4 {
+     width: auto;
+     font-size: 15px;
+     line-height: 20px;
+     text-align: center;
+     padding-top: 33px;
+    }
+    .project .col-lg-8 .one p {
+      width: auto;
+      font-size: 10px;
+      padding: 5px 0px;
+      line-height: 20px;
+      text-align: center;
+    }
+    .project .col-lg-8 .one a {
+      font-size: 10px;
+      padding-left: 36px;
+    }
+    .project .row .two {
+     width: 100%;
+     height: 48%;
+     padding: 23% 22% 0% 0%;
+     top: 0px;
+     left: 0px;
+    }
 
-
-
+    .project .col-lg-4 img, svg {
+     width: 103%;
+    }
+    .project .col-lg-4 .three img, svg {
+     width: 103%;
+    }
+    .project .row .two h5 {
+     width: auto;
+     font-size: 18px;
+     line-height: 0px;
+     padding-bottom: 13px;
+     text-align: center;
+    }
+    .project .col-lg-4 a {
+     margin-left: 24%;
+     font-size: 12px;
+    }
+    .project .col-lg-4 .two a i {
+     top: 54%;
+     left: 82px;
+    }
+    .features {
+     padding: 25px 0px;
+    }
+    .features .five p {
+     font-size: 14px;
+    }
+    .features .five h4 {
+      font-size: 23px;
+      width: auto;
+      line-height: 38px;
+    }
+    .features .row .col-lg-4 {
+      width: 100%;
+      height: 195px;
+      padding-top: 6%;
+      padding-left: 8%;
+    }
+    .features .row .col-lg-4 i {
+      margin-left: 46%;
+    }
+    .features .row .col-lg-4 h2 {
+      font-size: 19px;
+      text-align: center;
+    }
+    .features .row .col-lg-4 p {
+      width: auto;
+      font-size: 11px;
+      text-align: center;
+      line-height: 20px;
+    }
+    .what {
+      padding: 25px 0px;
+    }
+    .what .col-lg-4 h4 {
+      font-size: 18px;
+      width: auto;
+      text-align: center;
+    }
+    .what .col-lg-4 p {
+      font-size: 12px;
+      width: auto;
+      padding-top: 5px;
+      line-height: 22px;
+      text-align: center;
+    }
+    .what .col-lg-8 h5 {
+      font-size: 19px;
+      line-height: 38px;
+      padding-bottom: 20px;
+      text-align: center;
+    }
+    .what .col-lg-8 img {
+      width: 40px;
+      height: 40px;
+      margin-left: 29%;
+    }
+    .what .col-lg-8 h6 {
+      font-size: 11px;
+    }
+    .what .col-lg-8 h6 p {
+      font-size: 8px;
+      padding-top: 7px;
+      padding-left: 4px;
+    }
+    .fre {
+      padding: 25px 0px 41px 0px;
+    }
+    .fre .col-lg-4 h5 {
+      width: auto;
+      font-size: 19px;
+      line-height: 50px;
+      text-align: center;
+    }
+    .fre .col-lg-4 p {
+      font-size: 11px;
+      text-align: center;
+    }
+    .fre .col-lg-8 .accordion-button {
+      font-size: 10px;
+    }
+    
+    .fre .row > * {
+      padding-right: calc(var(--bs-gutter-x) * .0);
+      padding-left: calc(var(--bs-gutter-x) * .0);
+    }
+    .fre .col-lg-8 span {
+      font-size: 10px;
+      padding-right: 10%;
+    }
+    .fre .col-lg-8 p {
+      font-size: 12px;
+      text-align: center;
+      line-height: 25px;
+    }
+    .building .col-lg-6 .imeg .nine {
+      padding: 50px 0px 260px 0px;
+    }
+    .building .col-lg-6 .imeg .nine h6 {
+      font-size: 23px;
+      line-height: 30px;
+      text-align: center;
+    }
+    .building .col-lg-6 .imeg .nine p {
+      font-size: 15px;
+      padding-top: 12px;
+      line-height: 25px;
+      text-align: center;
+    }
+    .building .col-lg-6 .content form {
+      padding: 50px 0px 40px 0px;
+    }
+    .building .col-lg-6 .content h4 {
+      font-size: 16px;
+      padding-left: 5%;
+    }
+    .building .col-lg-6 .content p {
+      padding:  4% 0% 5% 5%;
+      font-size: 11px;
+    }
+    .building .col-lg-6 .content form input {
+      padding: 5% 11%;
+    }
+    .building .col-lg-6 .content form input::placeholder{
+     font-size: 10px;
+    }
+    .building .col-lg-6 .content form button {
+      padding: 18px 0px;
+      font-size: 13px;
+    }
+    .building .col-lg-6 .content form .five {
+      padding-left: 25%;
+      font-size: 14px;
+    }
+    .building .col-lg-6 .content form .five i {
+      left: 103%;
+    }
+    .building {
+      padding-bottom: 25px;
+    }
+    .blog .row > * {
+      padding-right: calc(var(--bs-gutter-x) * .0);
+      padding-left: calc(var(--bs-gutter-x) * .0);
+    }
+    .blog h5 {
+      font-size: 35px;
+      text-align: center;
+      padding-bottom: 0px;
+    }
+    .blog img{
+      width: 100%;
+      padding-top: 15px;
+    }
+    .blog .col-lg-4 h6 {
+      font-size: 13px;
+      padding: 10px 0px 10px 14px;
+    }
+    .blog .col-lg-4 h3 {
+      font-size: 18px;
+      line-height: 30px;
+      text-align: center;
+    }
+    .blog .col-lg-4 p {
+      width: auto;
+      font-size: 13px;
+      line-height: 24px;
+      padding: 10px 0px 5px 0px;
+      text-align: center;
+    }
+    .blog .col-lg-4 .six {
+      font-size: 13px;
+      padding:  0% 0% 0% 42%;
+    }
+    .blog .col-lg-4 .six i {
+      left: 105%;
+    }
+    .blog {
+      padding-bottom: 40px;
+    }
+    .talk {
+      background-color: #1C1E53;
+      padding-top: 35px;
+    }
+    .talk img{
+     padding-left: 31%;
+    }
+    .talk .col-lg-6 .one {
+      margin: 25px 0px 35px 0px;
+      width: auto;
+      font-size: 16px;
+      text-align: center;
+    }
+    .talk .row > * {
+      padding-right: calc(var(--bs-gutter-x) * .0);
+      padding-left: calc(var(--bs-gutter-x) * .0);
+    }
+     .talk h6 {
+      font-size: 10px;
+    }
+    .talk p {
+      font-size: 13px;
+    }
+    .talk .col-lg-6 .ten {
+      width: auto;
+      padding: 25px 0px 15px 7%;
+      column-gap: 22%;
+    }
+    .talk .col-lg-6 h4 {
+      font-size: 38px;
+      text-align: center;
+      padding-top: 15px;
+    }
+    .talk .col-lg-6 .two {
+      width: auto;
+      font-size: 14px;
+      text-align: center;
+    }
+    .talk .col-lg-6 ul {
+      padding-left: 29%;
+    }
+    footer {
+      padding: 25px 0px;
+    }
+    footer h6 {
+      font-size: 16px;
+      text-align: center;
+    }
+    footer a {
+      font-size: 10px;
+    }
+    footer ul {
+      column-gap: 6%;
+     padding-left: 0px;
+     padding-top: 30px;
+     justify-content: center;
+    }
 }

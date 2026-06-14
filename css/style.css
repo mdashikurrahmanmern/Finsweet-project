@@ -674,7 +674,25 @@ overflow: hidden;
 /*===========================================
             FOOTER-PART-START
 ============================================*/
-
+footer{
+  padding: 38px 0px;
+}
+footer h6{
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "poppins", sans-serif;
+}
+footer ul{
+  display: flex;
+  column-gap: 32px;
+  padding-left: 156px;
+}
+footer a{
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "poppins", sans-serif;
+  color: rgb(12, 12, 12);
+}
 /*===========================================
             FOOTER-PART-END
 ============================================*/
